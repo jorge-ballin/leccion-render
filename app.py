@@ -12,6 +12,8 @@ if 'df_experiment_results' not in st.session_state:
 
 st.header('Lanzar una moneda')
 
+st.write('## Hecho por Jorge Ballín')
+
 chart = st.line_chart([0.5])
 
 def toss_coin(n):
